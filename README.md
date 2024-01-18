@@ -29,6 +29,8 @@
 
 📱 **React Native App:**
    - The React Native app offers a mobile interface to access patient details and ECG data.
+<div data-snack-id="@dhritiman_dasgupta/ecg-app-final" data-snack-platform="web" data-snack-preview="true" data-snack-theme="dark" style="overflow:hidden;background:#0C0D0E;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
+<script async src="https://snack.expo.dev/embed.js"></script>
 
 ☁️ **Azure VM Hosting:**
    - Both the Django CRM and React Native app are hosted on an Azure Virtual Machine, ensuring scalability and accessibility.
@@ -47,18 +49,9 @@
 3. **Stream Analytics Configuration:**
    - Configure Azure Stream Analytics to process incoming data from IoT Hub and store it in the SQL database.
 
-4. **Django CRM Setup:**
-   - Clone the Django CRM project.
-   - Install required dependencies: `pip install -r requirements.txt`.
-   - Configure the Django project to connect to the SQL database.
-
-5. **Machine Learning Integration:**
-   - Integrate machine learning algorithms for converting data to 12-lead ECG in the Django CRM.
-
-6. **React Native App Setup:**
-   - Clone the React Native app project.
-   - Install required dependencies: `npm install`.
-   - Configure the app to connect to the Django CRM API.
+5. **Machine Learning:**
+   ![12911_2023_2233_Fig1_HTML](https://github.com/dhritiman-dasgupta/ECG-ANALYSIS/assets/84367714/f90a11a5-6914-41f0-965d-6bd612d403fc)
+   THE PREDICTED 12 LEAD ECG GRAPH   
 
 7. **Azure VM Hosting:**
    - Deploy the Django CRM and React Native app on the Azure Virtual Machine.
