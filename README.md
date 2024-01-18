@@ -3,19 +3,17 @@
 ## Overview
 
 🌐 Welcome to the ECG Cloud Project! This project utilizes Azure services for end-to-end management of ECG data. It involves collecting data from an IoT device through Azure IoT Hub, processing the data using Azure Stream Analytics, storing it in a SQL database, and visualizing patient details through a Django CRM. Additionally, machine learning is applied to convert the data to a 12-lead ECG format. The project includes a React Native app for mobile access.
+![Frame 1 (1)](https://github.com/dhritiman-dasgupta/ECG-ANALYSIS/assets/84367714/c89f0c00-556c-4abd-9894-76676cf86900)
 
 ## Project Components
 
 🔧 **IoT Data Collection:**
    - ECG data from three leads is collected from an IoT device via Azure IoT Hub.
    ![Frame 4 (4)](https://github.com/dhritiman-dasgupta/ECG-ANALYSIS/assets/84367714/643d09c8-ee3c-493c-8022-78cde130505c)
-                                                         The IoT Device
+   The IoT Device
    - The Device gets connected to wifi and send three lead ECG data to the Azure Cloud
    ![3-Lead-ECG-a-Lead-I-b-Lead-II-c-Lead-III](https://github.com/dhritiman-dasgupta/ECG-ANALYSIS/assets/84367714/df56225f-707e-4615-b042-3da58a262da6)
-                                                   The Three Lead ECG Data
-
-
-
+   The Three Lead ECG Data
 
 🌊 **Stream Analytics:**
    - Azure Stream Analytics processes the incoming data in real-time, enabling efficient data analysis.
@@ -34,6 +32,8 @@
 
 ☁️ **Azure VM Hosting:**
    - Both the Django CRM and React Native app are hosted on an Azure Virtual Machine, ensuring scalability and accessibility.
+    
+
 
 ## Getting Started
 
