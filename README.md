@@ -9,8 +9,10 @@
 🔧 **IoT Data Collection:**
    - ECG data from three leads is collected from an IoT device via Azure IoT Hub.
    ![Frame 4 (4)](https://github.com/dhritiman-dasgupta/ECG-ANALYSIS/assets/84367714/643d09c8-ee3c-493c-8022-78cde130505c)
-   The IoT Device
+                                                         The IoT Device
    - The Device gets connected to wifi and send three lead ECG data to the Azure Cloud
+   ![3-Lead-ECG-a-Lead-I-b-Lead-II-c-Lead-III](https://github.com/dhritiman-dasgupta/ECG-ANALYSIS/assets/84367714/df56225f-707e-4615-b042-3da58a262da6)
+                                                   The Three Lead ECG Data
 
 
 
