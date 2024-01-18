@@ -16,25 +16,20 @@
    The Three Lead ECG Data
 
 🌊 **Stream Analytics:**
-   - Azure Stream Analytics processes the incoming data in real-time, enabling efficient data analysis.
 
 🗃️ **SQL Database:**
-   - The processed data is stored in a SQL database, providing a structured and scalable solution for data management.
 
 🌐 **Django CRM:**
-   - Patient details are managed using a Django CRM, allowing for easy access to health information.
 
 ⚙️ **Machine Learning:**
    - Machine learning algorithms are applied to convert the collected data into a 12-lead ECG format for comprehensive analysis.
 
 📱 **React Native App:**
-   - The React Native app offers a mobile interface to access patient details and ECG data.
-<div data-snack-id="@dhritiman_dasgupta/ecg-app-final" data-snack-platform="web" data-snack-preview="true" data-snack-theme="dark" style="overflow:hidden;background:#0C0D0E;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
-<script async src="https://snack.expo.dev/embed.js"></script>
 
 ☁️ **Azure VM Hosting:**
-   - Both the Django CRM and React Native app are hosted on an Azure Virtual Machine, ensuring scalability and accessibility.
-    
+![image](https://github.com/dhritiman-dasgupta/ECG-ANALYSIS/assets/84367714/0c7e7866-1637-499e-95bc-4dd533d2e921)
+
+   
 
 
 ## Getting Started
@@ -42,6 +37,15 @@
 1. **Azure Setup:**
    - Ensure you have an active Azure subscription.
    - Create an Azure IoT Hub, Stream Analytics job, SQL database, and a Virtual Machine for hosting Django and React Native.
+   
+![image](https://github.com/dhritiman-dasgupta/ECG-ANALYSIS/assets/84367714/83ee9900-1f9d-4825-98c2-7e3a66dfe330)
+![image](https://github.com/dhritiman-dasgupta/ECG-ANALYSIS/assets/84367714/f1f53ba1-d565-4fcf-98b8-55ce9ae5b196)
+![image](https://github.com/dhritiman-dasgupta/ECG-ANALYSIS/assets/84367714/81e3db10-d347-43e0-9c42-ad60a1836836)
+![image](https://github.com/dhritiman-dasgupta/ECG-ANALYSIS/assets/84367714/3d28ac4d-7b5d-4016-845d-b20e4b50edbc)
+
+
+
+
 
 2. **IoT Device Integration:**
    - Connect your IoT device to Azure IoT Hub using the provided connection string.
