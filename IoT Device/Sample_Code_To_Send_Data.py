@@ -1,7 +1,15 @@
-from azure.iot.device import IoTHubDeviceClient, Message
+"""Reference publisher: sends one three-lead ECG sample block to Azure IoT Hub.
+
+Register the device on the hub and export its connection string before running:
+
+    export IOTHUB_DEVICE_CONNECTION_STRING="HostName=<hub>.azure-devices.net;DeviceId=<id>;SharedAccessKey=<key>"
+"""
 import json
-# Define the connection string
-connection_string = "HostName=<YOUR-HUB>.azure-devices.net;DeviceId=<DEVICE-ID>;SharedAccessKey=<YOUR-KEY>"
+import os
+
+from azure.iot.device import IoTHubDeviceClient, Message
+
+connection_string = os.environ["IOTHUB_DEVICE_CONNECTION_STRING"]
 
 # Create an IoT Hub client
 client = IoTHubDeviceClient.create_from_connection_string(connection_string)
